@@ -1,0 +1,46 @@
+[
+  {
+    "header": "Central reservation",
+    "body": [
+      {
+        "header": "BOOK OVERNATNING",
+        "body": [
+          {
+            "title": "Telefon",
+            "content": "(+45) 70 274 274 tryk 2"
+          },
+          {
+            "title": "Email",
+            "content": "booking@comwell.com"
+          }
+        ]
+      },
+      {
+        "header": "BOOK KONFERENCE",
+        "body": [
+          {
+            "title": "Telefon",
+            "content": "(+45) 70 274 274 tryk 1"
+          },
+          {
+            "title": "Email",
+            "content": "konference@comwell.com"
+          }
+        ]
+      },
+      {
+        "header": "GENERELT",
+        "body": [
+          {
+            "title": "",
+            "content": "Kontakt Comwells Afdelinger"
+          },
+          {
+            "title": "",
+            "content": "Kontakt Hoteller"
+          }
+        ]
+      }
+    ]
+  }
+]

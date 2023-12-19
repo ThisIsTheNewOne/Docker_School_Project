@@ -1,0 +1,319 @@
+/*DRAWER*/
+.bookingFlowDrawer {
+  padding: 0px 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.bookingFlowDrawer .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 100;
+}
+
+.bookingFlowDrawer .closeButton {
+  background-color: rgb(225 225 229);
+  border-radius: 100px;
+  padding: 8px;
+  height: fit-content;
+}
+
+.bookingFlowDrawer h1 {
+  font-size: 36px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #e5e7eb;
+  margin-top: 20px;
+}
+
+.bookingFlowDrawer .header .left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.bookingSummary {
+  display: flex;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.summaryInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bookingFlowDrawer .header .right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bookingFlowDrawer .header .price {
+  display: flex;
+  gap: 5px;
+  font-size: 28px;
+}
+
+.bookingFlowDrawer .bedicon {
+  background-color: rgb(243 243 245);
+}
+
+/*SELECT ROOM*/
+.selectRoomContainer {
+  padding: 10px 60px 0px 60px;
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.roomListLink {
+  list-style: none;
+}
+
+.room-selector {
+  border: solid 1px #e5e7eb;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.room-selector:hover {
+  border-color: #aeaeae;
+}
+
+.selectRoomContainer .roomPrice {
+  font-size: 28px;
+  margin-top: 18px;
+}
+
+/*GUEST INFO*/
+.guestInfoWrapper {
+  display: flex;
+}
+.guestInfoContainer {
+  padding: 10px 60px 0px 60px;
+  width: 60%;
+}
+
+.guestInfoContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-top: 40px;
+}
+
+.guestInfoContainer form input {
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 14px 12px;
+  font-size: 16px;
+}
+
+.guestInfoContainer input::placeholder {
+  color: black;
+}
+
+.overviewContainer {
+  padding: 82px 20px 0px 20px;
+  background-color: #f3f3f5;
+  width: 50%;
+  height: 100vh;
+  margin-right: -20px;
+  margin-top: -72px;
+  z-index: 1;
+  border-left: 1px solid rgb(198, 198, 198);
+}
+
+.package-text {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/*PAYMENT*/
+.paymentWrapper {
+  display: flex;
+}
+
+.paymentContainer {
+  padding: 10px 20px 0px 60px;
+  width: 60%;
+  height: 76vh;
+  padding-bottom: 100px;
+}
+
+.paymentContainer .rounded-full {
+  background-color: #e5e7eb;
+}
+
+.paymentContainer .card-check {
+  background-color: #fff;
+}
+
+.paymentContainer .card-check.selected {
+  background-color: #000;
+}
+
+.cardWrapper {
+  width: 100%;
+}
+
+.cardWrapper .input-group {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.cardWrapper input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 8px 12px;
+}
+
+.cardWrapper label {
+  font-size: 14px;
+}
+
+.cardWrapper svg {
+  position: absolute;
+  right: 10px;
+  bottom: 30%;
+}
+
+.cardWrapper .multi-input {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.cardWrapper small {
+  color: red;
+  font-size: 10px;
+  display: block;
+}
+
+/* USER LOG IN TEMPORARY */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.login-container {
+  position: absolute; /* Ensure LoginContainer is positioned correctly */
+  /* Add styles like top, left, right, etc., to position the LoginContainer */
+}
+
+.logInContainer {
+  background-color: white;
+  width: 300px;
+  height: 350px;
+  transform: translate(-330px, 70px);
+  border-radius: 10px;
+  padding: 30px 20px;
+  color: #aeaeae;
+  overflow: hidden;
+}
+
+.logInContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.logInContainer form input {
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 14px 12px;
+  font-size: 16px;
+  color: #000;
+}
+
+.logInContainer input::placeholder {
+  color: black;
+}
+
+.logInContainer button.underline {
+  color: rgb(24, 43, 57);
+}
+
+/*SIGN UP*/
+
+.signupDrawer {
+  padding: 0px 20px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.signupDrawer .header {
+  padding: 15px 0px 30px 0px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.signupDrawer .header .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.signupDrawer .closeButton {
+  background-color: rgb(225 225 229);
+  border-radius: 100px;
+  padding: 8px;
+  height: fit-content;
+}
+
+.signupDrawer h1 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.signupDrawerContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.signupDrawerContainer form input,
+.signupDrawerContainer form select {
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 14px 12px;
+  font-size: 16px;
+}
+
+.signupDrawerContainer input::placeholder {
+  color: black;
+}
+
+.signupDrawer .labelSignup {
+  margin-bottom: -10px;
+}
+
+.signupButton {
+  background-color: #182b39;
+  color: #fff;
+  width: 100%;
+  border-radius: 100px;
+  padding: 14px;
+  transition: all 0.2s;
+}
+
+.signupButton:hover {
+  background-color: #182b39e8;
+}
